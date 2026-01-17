@@ -1,0 +1,67 @@
+[
+  {
+    "VolumeId": "vol-0252208bab5d764f2",
+    "Size": 10,
+    "AZ": "us-east-1a",
+    "CreateTime": "2025-09-19T10:54:11.112000+00:00",
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Unattached-Vol-1"
+      }
+    ],
+    "EligibleForDeletion": true,
+    "Action": "Deleted"
+  },
+  {
+    "VolumeId": "vol-02a4c8fe63dd93d68",
+    "Size": 1,
+    "AZ": "us-east-1a",
+    "CreateTime": "2025-09-08T18:22:53.356000+00:00",
+    "Tags": [],
+    "EligibleForDeletion": true,
+    "Action": "Deleted"
+  },
+  {
+    "VolumeId": "vol-0cb742a838c2a4c80",
+    "Size": 10,
+    "AZ": "us-east-1a",
+    "CreateTime": "2025-09-19T10:54:13.644000+00:00",
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Unattached-Vol-3"
+      }
+    ],
+    "EligibleForDeletion": true,
+    "Action": "Deleted"
+  },
+  {
+    "VolumeId": "vol-00ebc8179c01a232b",
+    "Size": 10,
+    "AZ": "us-east-1a",
+    "CreateTime": "2025-09-19T10:53:03.711000+00:00",
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Unattached-Vol"
+      }
+    ],
+    "EligibleForDeletion": true,
+    "Action": "Deleted"
+  },
+  {
+    "VolumeId": "vol-0d98524bb61d9290b",
+    "Size": 10,
+    "AZ": "us-east-1a",
+    "CreateTime": "2025-09-19T10:54:12.367000+00:00",
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Unattached-Vol-2"
+      }
+    ],
+    "EligibleForDeletion": true,
+    "Action": "Deleted"
+  }
+]

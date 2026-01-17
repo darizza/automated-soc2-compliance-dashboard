@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-21T20:14:11.289024",
+  "control_id": "CC9.2",
+  "check_type": "EncryptionInTransit",
+  "alb_dns": "alb-sg-http-323621870.us-east-1.elb.amazonaws.com",
+  "http_status": null,
+  "https_status": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1147)>",
+  "redirect_verified": false,
+  "tls_version": null,
+  "compliance_status": "NON_COMPLIANT"
+}

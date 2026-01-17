@@ -1,0 +1,72 @@
+[
+  {
+    "eventVersion": "1.10",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDATACDC3FXUOLQORUVH",
+      "arn": "arn:aws:iam::206299126127:user/SOC2User",
+      "accountId": "206299126127",
+      "accessKeyId": "AKIATACDC3FXUENNAQ6Z",
+      "userName": "SOC2User"
+    },
+    "eventTime": "2025-09-07T19:10:01Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "AuthorizeSecurityGroupIngress",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "44.210.124.24",
+    "userAgent": "aws-cli/2.27.2 md/awscrt#0.25.4 ua/2.1 os/linux#6.14.0-1011-aws md/arch#x86_64 lang/python#3.13.2 md/pyimpl#CPython cfg/retry-mode#standard md/installer#exe md/distrib#ubuntu.24 md/prompt#off md/command#ec2.authorize-security-group-ingress",
+    "requestParameters": {
+      "groupId": "sg-089f120773292db6b",
+      "ipPermissions": {
+        "items": [
+          {
+            "ipProtocol": "tcp",
+            "fromPort": 8080,
+            "toPort": 8080,
+            "groups": {},
+            "ipRanges": {
+              "items": [
+                {
+                  "cidrIp": "0.0.0.0/0"
+                }
+              ]
+            },
+            "ipv6Ranges": {},
+            "prefixListIds": {}
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "ab074a51-1b50-4c27-80f6-e0d64c7d90cb",
+      "_return": true,
+      "securityGroupRuleSet": {
+        "items": [
+          {
+            "groupOwnerId": "206299126127",
+            "groupId": "sg-089f120773292db6b",
+            "securityGroupRuleId": "sgr-09e0e4767f810e76c",
+            "isEgress": false,
+            "ipProtocol": "tcp",
+            "fromPort": 8080,
+            "toPort": 8080,
+            "cidrIpv4": "0.0.0.0/0",
+            "securityGroupRuleArn": "arn:aws:ec2:us-east-1:206299126127:security-group-rule/sgr-09e0e4767f810e76c"
+          }
+        ]
+      }
+    },
+    "requestID": "ab074a51-1b50-4c27-80f6-e0d64c7d90cb",
+    "eventID": "f96ae606-dabe-4906-9dc3-2843c517100a",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "206299126127",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "ec2.us-east-1.amazonaws.com"
+    }
+  }
+]

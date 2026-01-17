@@ -1,0 +1,26 @@
+[
+    {
+        "User": "TestUserCC63",
+        "Policy": "OverPrivilegedAccess (inline)",
+        "Action": "iam:*",
+        "DetectedAt": "2025-09-06T18:07:24.505056"
+    },
+    {
+        "User": "TestUserCC63",
+        "Policy": "OverPrivilegedAccess (inline)",
+        "Action": "s3:*",
+        "DetectedAt": "2025-09-06T18:07:24.505077"
+    },
+    {
+        "User": "TestUserCC63",
+        "Policy": "OverPrivilegedAccess (inline)",
+        "Action": "ec2:*",
+        "DetectedAt": "2025-09-06T18:07:24.505082"
+    },
+    {
+        "User": "SOC2User",
+        "Policy": "AdministratorAccess",
+        "Action": "*",
+        "DetectedAt": "2025-09-06T18:07:24.694610"
+    }
+]

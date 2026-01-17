@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-09-06T17:36:32.240042+00:00",
+  "control_id": "CC6.1",
+  "resource_type": "IAM_Password_Policy",
+  "resource_id": "AWS_Account",
+  "compliance_status": "NON_COMPLIANT_REMEDIATED",
+  "finding": "MinimumPasswordLength is 8, should be 14; RequireSymbols is False, should be True; RequireUppercaseCharacters is False, should be True; MaxPasswordAge is 1, should be 90; PasswordReusePrevention is 1, should be 24 | Password policy updated to comply with SOC 2 CC6.1.",
+  "account_id": "206299126127",
+  "region": "us-east-1"
+}

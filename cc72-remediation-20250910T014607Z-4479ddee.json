@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "2025-09-10",
+  "control": "SOC2-CC7.2",
+  "processor": "cc72-remediator-lambda",
+  "sourceFindingsKey": "audit_reports/findings/cc72-findings-20250910T014604Z-d7b47040.json",
+  "remediatedAt": "2025-09-10T01:46:07.073378+00:00",
+  "summary": {
+    "totalFindingsInFile": 17,
+    "attempted": 5,
+    "revoked": 0,
+    "failed": 0,
+    "skipped": 12,
+    "dryRun": true
+  },
+  "results": [
+    {
+      "findingId": "f92c8988-e1bf-4d23-960e-72668813e023",
+      "groupId": "sg-0a3e43712bb62e15d",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "71188dfc-0664-4cd3-a362-648b9b967a70",
+      "groupId": "sg-0a3e43712bb62e15d",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "3d40ee25-0c2b-46f4-b1ab-cc9e55cabd9a",
+      "groupId": "sg-0cf32ac7dec7a71ec",
+      "action": "DRY_RUN"
+    },
+    {
+      "findingId": "1ad17690-7160-4ed2-a1d4-b54ca0b6eee4",
+      "groupId": "sg-0cf32ac7dec7a71ec",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "67da8c90-67f0-443c-865e-c815a1c32bab",
+      "groupId": "sg-0cf32ac7dec7a71ec",
+      "action": "DRY_RUN"
+    },
+    {
+      "findingId": "b21dc733-97a2-485d-ae22-107691ed0c3e",
+      "groupId": "sg-08b62f85187c85ec0",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "13a7521d-50a6-4f6a-b2fe-87b816303be0",
+      "groupId": "sg-08b62f85187c85ec0",
+      "action": "DRY_RUN"
+    },
+    {
+      "findingId": "a20e6aba-93dc-4d6f-bb54-19d1ee9072ec",
+      "groupId": "sg-08b62f85187c85ec0",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "369e038b-5136-4ad6-bdd8-ac2a01777ea0",
+      "groupId": "sg-089f120773292db6b",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "a504556e-37e6-4ac2-8aa5-83317e9d61f2",
+      "groupId": "sg-089f120773292db6b",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "b609728e-19d5-42c0-943b-af33a5769113",
+      "groupId": "sg-089f120773292db6b",
+      "action": "DRY_RUN"
+    },
+    {
+      "findingId": "80c04b75-42ea-49ae-8f07-673fb33a9da8",
+      "groupId": "sg-03265b9c82a6ff29c",
+      "action": "DRY_RUN"
+    },
+    {
+      "findingId": "7813f91d-3f98-4e91-937e-5b5a2d1e4293",
+      "groupId": "sg-0ce8e9c38b06de623",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "14e2a96a-31e5-4451-be34-e4420dca4d0d",
+      "groupId": "sg-0ce8e9c38b06de623",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "6fd3c140-d1b2-486a-bb47-1d84cc94f98a",
+      "groupId": "sg-058ed177d88ec8a3c",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "be57c827-a601-4ca3-a294-950fc5fb070d",
+      "groupId": "sg-0e05ff9d43340a310",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    },
+    {
+      "findingId": "64bb48cd-3a70-426a-bd61-63a34b00d3e9",
+      "groupId": "sg-0e05ff9d43340a310",
+      "action": "SKIPPED",
+      "reason": "port not in REMEDIATE_PORTS"
+    }
+  ]
+}

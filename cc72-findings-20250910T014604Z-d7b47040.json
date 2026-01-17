@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "2025-09-10",
+  "control": "SOC2-CC7.2",
+  "generator": "cc72-detector-lambda",
+  "accountId": "206299126127",
+  "region": "us-east-1",
+  "detectedAt": "2025-09-10T01:46:04.999015+00:00",
+  "filters": {
+    "ports": "ALL"
+  },
+  "findingsCount": 17,
+  "findings": [
+    {
+      "findingId": "f92c8988-e1bf-4d23-960e-72668813e023",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.960825+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0a3e43712bb62e15d",
+      "groupName": "launch-wizard-5",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 80,
+      "toPort": 80,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "71188dfc-0664-4cd3-a362-648b9b967a70",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998620+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0a3e43712bb62e15d",
+      "groupName": "launch-wizard-5",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 443,
+      "toPort": 443,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "3d40ee25-0c2b-46f4-b1ab-cc9e55cabd9a",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998655+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0cf32ac7dec7a71ec",
+      "groupName": "test-open-sg",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 22,
+      "toPort": 22,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "1ad17690-7160-4ed2-a1d4-b54ca0b6eee4",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998673+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0cf32ac7dec7a71ec",
+      "groupName": "test-open-sg",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 6379,
+      "toPort": 6379,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "67da8c90-67f0-443c-865e-c815a1c32bab",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998690+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0cf32ac7dec7a71ec",
+      "groupName": "test-open-sg",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 3389,
+      "toPort": 3389,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "b21dc733-97a2-485d-ae22-107691ed0c3e",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998719+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-08b62f85187c85ec0",
+      "groupName": "launch-wizard-3",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 80,
+      "toPort": 80,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "13a7521d-50a6-4f6a-b2fe-87b816303be0",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998745+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-08b62f85187c85ec0",
+      "groupName": "launch-wizard-3",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 22,
+      "toPort": 22,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "a20e6aba-93dc-4d6f-bb54-19d1ee9072ec",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998761+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-08b62f85187c85ec0",
+      "groupName": "launch-wizard-3",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "icmp",
+      "fromPort": -1,
+      "toPort": -1,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "369e038b-5136-4ad6-bdd8-ac2a01777ea0",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998780+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-089f120773292db6b",
+      "groupName": "TestSG",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 8080,
+      "toPort": 8080,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "a504556e-37e6-4ac2-8aa5-83317e9d61f2",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998794+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-089f120773292db6b",
+      "groupName": "TestSG",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 3306,
+      "toPort": 3306,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "b609728e-19d5-42c0-943b-af33a5769113",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998807+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-089f120773292db6b",
+      "groupName": "TestSG",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 3389,
+      "toPort": 3389,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "80c04b75-42ea-49ae-8f07-673fb33a9da8",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998824+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-03265b9c82a6ff29c",
+      "groupName": "TestSGCC72Remediate",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 3389,
+      "toPort": 3389,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "7813f91d-3f98-4e91-937e-5b5a2d1e4293",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998869+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0ce8e9c38b06de623",
+      "groupName": "launch-wizard-4",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 80,
+      "toPort": 80,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "14e2a96a-31e5-4451-be34-e4420dca4d0d",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998884+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0ce8e9c38b06de623",
+      "groupName": "launch-wizard-4",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 443,
+      "toPort": 443,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "6fd3c140-d1b2-486a-bb47-1d84cc94f98a",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998898+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-058ed177d88ec8a3c",
+      "groupName": "soc2-cc92-insecure-elb-sg",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 80,
+      "toPort": 80,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "be57c827-a601-4ca3-a294-950fc5fb070d",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998912+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0e05ff9d43340a310",
+      "groupName": "HoneypotSG",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 80,
+      "toPort": 80,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    },
+    {
+      "findingId": "64bb48cd-3a70-426a-bd61-63a34b00d3e9",
+      "control": "SOC2-CC7.2",
+      "detectedAt": "2025-09-10T01:46:04.998928+00:00",
+      "accountId": "206299126127",
+      "region": "us-east-1",
+      "groupId": "sg-0e05ff9d43340a310",
+      "groupName": "HoneypotSG",
+      "vpcId": "vpc-0f25cc9c94c9d35f8",
+      "direction": "ingress",
+      "ipProtocol": "tcp",
+      "fromPort": 443,
+      "toPort": 443,
+      "cidr": "0.0.0.0/0",
+      "ipv6Cidr": null,
+      "risk": "Security group ingress open to world",
+      "remediationEligible": true,
+      "metadata": {
+        "description": null
+      }
+    }
+  ]
+}

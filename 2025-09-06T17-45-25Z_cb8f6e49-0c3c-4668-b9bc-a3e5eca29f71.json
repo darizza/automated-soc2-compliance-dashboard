@@ -1,0 +1,45 @@
+{
+    "job_id": "cb8f6e49-0c3c-4668-b9bc-a3e5eca29f71",
+    "timestamp": "2025-09-06T17:45:25Z",
+    "dry_run": false,
+    "skipped_users": [],
+    "findings_count": 2,
+    "findings": [
+        {
+            "user": "SOc2User1",
+            "access_key_id": "AKIATACDC3FXRLSIMSSX",
+            "access_key_create_date": "2025-08-30T18:50:34+00:00",
+            "access_key_last_used": null,
+            "action": "disabled",
+            "disabled_at": "2025-09-06T17:45:25Z"
+        },
+        {
+            "user": "TestUserCC63",
+            "access_key_id": "AKIATACDC3FX6XEOC5PI",
+            "access_key_create_date": "2025-08-30T18:55:44+00:00",
+            "access_key_last_used": null,
+            "action": "disabled",
+            "disabled_at": "2025-09-06T17:45:25Z"
+        }
+    ],
+    "disabled_count": 2,
+    "disabled": [
+        {
+            "user": "SOc2User1",
+            "access_key_id": "AKIATACDC3FXRLSIMSSX",
+            "access_key_create_date": "2025-08-30T18:50:34+00:00",
+            "access_key_last_used": null,
+            "action": "disabled",
+            "disabled_at": "2025-09-06T17:45:25Z"
+        },
+        {
+            "user": "TestUserCC63",
+            "access_key_id": "AKIATACDC3FX6XEOC5PI",
+            "access_key_create_date": "2025-08-30T18:55:44+00:00",
+            "access_key_last_used": null,
+            "action": "disabled",
+            "disabled_at": "2025-09-06T17:45:25Z"
+        }
+    ],
+    "errors": []
+}

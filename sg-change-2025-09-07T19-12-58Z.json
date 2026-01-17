@@ -1,0 +1,77 @@
+[
+  {
+    "eventVersion": "1.10",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDATACDC3FXUOLQORUVH",
+      "arn": "arn:aws:iam::206299126127:user/SOC2User",
+      "accountId": "206299126127",
+      "accessKeyId": "ASIATACDC3FX4OHOWKLI",
+      "userName": "SOC2User",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2025-09-07T18:35:43Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2025-09-07T19:09:11Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RevokeSecurityGroupIngress",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "111.68.99.197",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "requestParameters": {
+      "groupId": "sg-089f120773292db6b",
+      "ipPermissions": {
+        "items": [
+          {
+            "ipProtocol": "tcp",
+            "fromPort": 8080,
+            "toPort": 8080,
+            "groups": {},
+            "ipRanges": {
+              "items": [
+                {
+                  "cidrIp": "0.0.0.0/0"
+                }
+              ]
+            },
+            "ipv6Ranges": {},
+            "prefixListIds": {}
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "1deb80be-0f12-4ab3-a729-3dd848803aef",
+      "_return": true,
+      "revokedSecurityGroupRuleSet": {
+        "items": [
+          {
+            "groupId": "sg-089f120773292db6b",
+            "securityGroupRuleId": "sgr-060252f8a4b7556b8",
+            "isEgress": false,
+            "ipProtocol": "tcp",
+            "fromPort": 8080,
+            "toPort": 8080,
+            "cidrIpv4": "0.0.0.0/0"
+          }
+        ]
+      }
+    },
+    "requestID": "1deb80be-0f12-4ab3-a729-3dd848803aef",
+    "eventID": "c3f8ee4f-d119-4569-9b21-50c3d386794f",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "206299126127",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "ec2.us-east-1.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+  }
+]
